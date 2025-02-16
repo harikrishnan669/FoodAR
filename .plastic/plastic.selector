@@ -1,0 +1,4 @@
+repository "Kerala Menu AR/Kerala Menu AR@13469781826748@cloud"
+  path "/"
+    br "/main"
+    co "/main"
