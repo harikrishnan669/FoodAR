@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "209194874363",
+    "project_id": "menucard-25f3c",
+    "storage_bucket": "menucard-25f3c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209194874363:android:1f5463fb0f9dda77ee875e",
+        "android_client_info": {
+          "package_name": "com.armenucard.foodar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp66ZmpoRP--7U1aSS-8UGaZshauqlXQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
