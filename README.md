@@ -17,6 +17,7 @@ smartphones or tablets.
 
   ● **Customer Reviews**: A feedback system to enhance the dining experience
 and provide insights for future visitors.
+Check wheather the device supports [AR Core](https://developers.google.com/ar/devices)
 
 ## How to use ?
 1. Download and print the [Image Target](https://docs.google.com/document/d/1Fy-2laU7UrWH8JR6WG3rCsG0lqenC1AUqYepix219aQ/edit?usp=sharing)
