@@ -1,7 +1,5 @@
 # FOOD AR
-
-![Food__1_-removebg-preview-removebg-preview](https://github.com/user-attachments/assets/c14dd1ee-36a4-41f0-bb38-11ad49bffe77)
-
+![FOODAR image target](https://github.com/user-attachments/assets/7c94c693-1462-4b53-96e3-70e24f3b0b33)
 
 FoodAR is an AR-based app that enhances the dining experience by allowing customers to view 3D visualizations of Kerala dishes in real-time using smartphones or tablets. This interactive solution showcases the textures, ingredients, and presentation of traditional Kerala cuisine, making it easier for international visitors to explore the state's rich culinary heritage. Additionally, customers can submit reviews, further enriching the dining experience..Key Features of the Project
 
