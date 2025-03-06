@@ -36,6 +36,8 @@ The app was build using:
 <img src="https://github.com/user-attachments/assets/c97162a5-8487-4117-9025-d9b637c7ee65" width="50">Vuforia
 <img src="https://skillicons.dev/icons?i=firebase" height="40" alt="firebase logo"/><img width="12" />Firebase
 <img src="https://skillicons.dev/icons?i=cs" height="40" alt="csharp logo"/><img width="12" />C#
+<img src="https://skillicons.dev/icons?i=blender" height="40" alt="blender logo"/><img width="12"/>Blender
+<img src="https://skillicons.dev/icons?i=visualstudio" height="40" alt="visualstudio logo"/>Visual Studio
 
 
 The Web app build using:
