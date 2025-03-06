@@ -28,6 +28,9 @@ and provide insights for future visitors.
 7. Users can submit reviews, sharing their feedback on dishes. This helps enhance the dining experience by providing insights for both customers and restaurant owners.
 8. Owners can see the reviews in a [web app](https://harikrishnan669.github.io/FoodAR-Owner/)
 
+## How we build the app ?
+[Notion](https://www.notion.so/KERALA-CUSININE-MENU-CARD-USING-AR-FOODAR-17235c8d46b980ea887de92c746e2642?pvs=4) page documenting the entire project development process, including planning, implementation, and key features.
+
 ## Tech Stack
 The app was build using:
 
