@@ -15,6 +15,8 @@ public class ARUIManager : MonoBehaviour
     public GameObject foodInfoPanel2;
     public GameObject exitConfirmationPanel;
     public GameObject foodMenuPanel;
+    public GameObject Vegpanel;
+    public GameObject Nonvegpanel;
     public TextMeshProUGUI foodInfoText;
     public TextMeshProUGUI foodInfoText2;
 
@@ -26,7 +28,7 @@ public class ARUIManager : MonoBehaviour
 
     [Header("UI Buttons")]
     public Button scanButton, nextButton, previousButton, foodInfoButton, homeButton, exitButton;
-    public Button reviewButton, rotateButton, yesExitButton, noExitButton, menuButton, backButton;
+    public Button reviewButton, rotateButton, yesExitButton, noExitButton, menuButton, backButton, vegbutton, nonvegbutton;
 
     private int currentModelIndex = 0;
     private bool isFoodInfoVisible = false;
@@ -103,7 +105,7 @@ public class ARUIManager : MonoBehaviour
             isModelVisible = false;
             foodModelsContainer.SetActive(false);
 
-            
+
             foodInfoPanel.SetActive(false);
             foodInfoPanel2.SetActive(false);
         }
@@ -118,9 +120,9 @@ public class ARUIManager : MonoBehaviour
             return;
         }
 
-        isFoodInfoVisible = !isFoodInfoVisible;  
+        isFoodInfoVisible = !isFoodInfoVisible;
 
-        
+
         foodInfoPanel.SetActive(false);
         foodInfoPanel2.SetActive(false);
 
@@ -224,7 +226,7 @@ public class ARUIManager : MonoBehaviour
             Debug.LogError("AR Camera is NOT assigned!");
         }
 
-        
+
         for (int i = 0; i < foodModels.Length; i++)
         {
             foodModels[i].SetActive(i == currentModelIndex);
@@ -236,11 +238,19 @@ public class ARUIManager : MonoBehaviour
 
     public void GoBackToMenu()
     {
-        ShowPanel(foodMenuPanel);  
-        arPanel2.SetActive(false); 
+        ShowPanel(foodMenuPanel);
+        arPanel2.SetActive(false);
     }
-
-
+    public void vegbuttonclicked()
+    {
+        Debug.Log("Veg button clicked!");
+        ShowPanel(Vegpanel);
+    }
+    public void nonvegbuttonclicked()
+    {
+        Debug.Log("Nonveg button clicked!");
+        ShowPanel(Nonvegpanel);
+    }
     public void OnHomeButtonClicked()
     {
         Debug.Log("Home button clicked!");
@@ -291,7 +301,7 @@ public class ARUIManager : MonoBehaviour
             foodInfoPanel2.SetActive(false);
         }
 
-        
+
         for (int i = 0; i < foodModels.Length; i++)
         {
             foodModels[i].SetActive(i == currentModelIndex);
@@ -309,6 +319,8 @@ public class ARUIManager : MonoBehaviour
         if (thankYouPanel) thankYouPanel.SetActive(false);
         if (exitConfirmationPanel) exitConfirmationPanel.SetActive(false);
         if (foodMenuPanel) foodMenuPanel.SetActive(false);
+        if (Vegpanel) Vegpanel.SetActive(false);
+        if (Nonvegpanel) Nonvegpanel.SetActive(false);
 
         if (panelToShow)
         {
