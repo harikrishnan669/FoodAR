@@ -1,5 +1,6 @@
 # FOOD AR
-<img src="https://github.com/user-attachments/assets/8f907c98-349c-4b96-8fad-6870a2a924d9" alt="Food Image" width="250"/>
+
+![Food__1_-removebg-preview](https://github.com/user-attachments/assets/5120e0ba-03bf-47fc-9d62-e6042726341a)
 
 FoodAR is an AR-based app that enhances the dining experience by allowing customers to view 3D visualizations of Kerala dishes in real-time using smartphones or tablets. This interactive solution showcases the textures, ingredients, and presentation of traditional Kerala cuisine, making it easier for international visitors to explore the state's rich culinary heritage. Additionally, customers can submit reviews, further enriching the dining experience..Key Features of the Project
 
@@ -31,18 +32,18 @@ and provide insights for future visitors.
 ## Tech Stack
 The app was build using:
 
-<img src="https://github.com/user-attachments/assets/447cf61d-776b-4c91-89b5-7ae85f5fc919" width="50">Unity
-<img src="https://github.com/user-attachments/assets/b8def9fb-5494-4129-85f7-1fa72c014a10" width="50">Vuforia
-<img src="https://github.com/user-attachments/assets/5b99d3e4-ca30-4340-86fe-ebf44ba196cd" width="50">Firebase
-<img src="https://github.com/user-attachments/assets/8eefde20-e3a1-4c3b-ac85-6340672f090d" width="50">C#
+<img src="https://skillicons.dev/icons?i=unity" height="40" alt="unity logo"/><img width="12" />Unity
+<img src="https://github.com/user-attachments/assets/c97162a5-8487-4117-9025-d9b637c7ee65" width="50">Vuforia
+<img src="https://skillicons.dev/icons?i=firebase" height="40" alt="firebase logo"/><img width="12" />Firebase
+<img src="https://skillicons.dev/icons?i=cs" height="40" alt="csharp logo"/><img width="12" />C#
 
 
 The Web app build using:
 
-<img src="https://github.com/user-attachments/assets/f1ab3155-324a-446e-9490-06fdb21809c5" width="50">HTML
-<img src="https://github.com/user-attachments/assets/47f9932d-6a20-4704-aab8-330ea3eb1906" width="50">CSS
-<img src="https://github.com/user-attachments/assets/c0677895-c034-41e7-b395-8c85a6c4da3c" width="50">Javascript
-<img src="https://github.com/user-attachments/assets/5b99d3e4-ca30-4340-86fe-ebf44ba196cd" width="50">Firebase
+<img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"/><img width="12" />HTML
+<img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo"/><img width="12" />CSS
+<img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"/><img width="12" />Javascript
+<img src="https://skillicons.dev/icons?i=firebase" height="40" alt="firebase logo"/><img width="12" />Firebase
 
 ## Project Contributors:
 - [R Harikrishnan](https://github.com/harikrishnan669)
