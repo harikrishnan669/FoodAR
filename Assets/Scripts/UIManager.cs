@@ -17,6 +17,7 @@ public class ARUIManager : MonoBehaviour
     public GameObject foodMenuPanel;
     public GameObject Vegpanel;
     public GameObject Nonvegpanel;
+    public GameObject drinkspanel;
     public TextMeshProUGUI foodInfoText;
     public TextMeshProUGUI foodInfoText2;
 
@@ -28,7 +29,7 @@ public class ARUIManager : MonoBehaviour
 
     [Header("UI Buttons")]
     public Button scanButton, nextButton, previousButton, foodInfoButton, homeButton, exitButton;
-    public Button reviewButton, rotateButton, yesExitButton, noExitButton, menuButton, backButton, vegbutton, nonvegbutton;
+    public Button reviewButton, rotateButton, yesExitButton, noExitButton, menuButton, backButton, vegbutton, nonvegbutton,drinksbutton;
 
     private int currentModelIndex = 0;
     private bool isFoodInfoVisible = false;
@@ -41,7 +42,9 @@ public class ARUIManager : MonoBehaviour
         " Kerala Ghee Roast Dosa\r\nDescription: Crispy Kerala-style dosa roasted in ghee and coconut oil, served with coconut chutney and fish/vegetable sambar.\r\nIngredients: Dosa batter(rice,urad dal,coconut,fenugreek),ghee,coconut oil,spices(red chili,curry leaves,mustard seeds).\r\nPrice: Rs 120/-\r\n",
         " Chappathi & Curry\r\nDescription: Soft whole wheat flatbread served with mixed vegetable curry.\r\nIngredients: Whole wheat chappathi, mixed vegetable curry (potatoes, carrots, peas), coconut milk, spices (turmeric, coriander).\r\nPrice: Rs 70/-\r\n",
         " Puttu & Kadala Curry\r\nDescription: Steamed rice cakes with coconut served with spiced black chickpea curry.\r\nIngredients: Rice flour, coconut, salt, black chickpeas, onions, tomatoes, spices (turmeric, chili, coriander, mustard seeds), tamarind, curry leaves.\r\nPrice: Rs 90/-\r\n\r\n",
-        " Chicken Biriyani\r\nDescription: Fragrant basmati rice cooked with tender chicken and aromatic spices.\r\nIngredients: Basmati rice, chicken, onions, tomatoes, yogurt, mint, coriander, spices (cumin, cardamom, cloves).\r\nPrice: Rs 190/-\r\n"
+        " Chicken Biriyani\r\nDescription: Fragrant basmati rice cooked with tender chicken and aromatic spices.\r\nIngredients: Basmati rice, chicken, onions, tomatoes, yogurt, mint, coriander, spices (cumin, cardamom, cloves).\r\nPrice: Rs 190/-\r\n",
+        " Kerala Coconut Water\r\nDescription: Refreshing and naturally sweet coconut water, served chilled straight from tender Kerala coconuts.\r\nIngredients: Fresh tender coconut water.\r\nPrice: Rs 50/-\r\n",
+        " Fresh Orange Juice\r\nDescription: Freshly squeezed orange juice, packed with natural sweetness and a boost of Vitamin C, served chilled.\r\nIngredients: Fresh oranges.\r\nPrice: Rs 80/-"
     };
 
     void Start()
@@ -251,6 +254,11 @@ public class ARUIManager : MonoBehaviour
         Debug.Log("Nonveg button clicked!");
         ShowPanel(Nonvegpanel);
     }
+    public void drinksbuttonclicked()
+    {
+        Debug.Log("Drinks button clicked");
+        ShowPanel(drinkspanel);
+    }
     public void OnHomeButtonClicked()
     {
         Debug.Log("Home button clicked!");
@@ -321,6 +329,7 @@ public class ARUIManager : MonoBehaviour
         if (foodMenuPanel) foodMenuPanel.SetActive(false);
         if (Vegpanel) Vegpanel.SetActive(false);
         if (Nonvegpanel) Nonvegpanel.SetActive(false);
+        if (drinkspanel) drinkspanel.SetActive(false);
 
         if (panelToShow)
         {
