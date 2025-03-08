@@ -22,7 +22,7 @@ Check wheather the device supports [AR Core](https://developers.google.com/ar/de
 
 ## How to use ?
 1. Download and print the [Image Target](https://docs.google.com/document/d/1Fy-2laU7UrWH8JR6WG3rCsG0lqenC1AUqYepix219aQ/edit?usp=sharing)
-2. Download the app from the link given
+2. Download the app from the link given [FoodAR](https://drive.google.com/drive/folders/1L0jq6ydokkleIN29a10UgWg71FW7jZaw?usp=drive_link)
 3. Place the image Target on a levelled and dry place.
 4. Lauch the FoodAR application.
 5. Click the **Scan** button and point it at the image target to display the model. Use the **Next** and **Previous** buttons to switch models, click the **Food Info** button to view the name, description, ingredients, and price, rotate button to rotate the models.
